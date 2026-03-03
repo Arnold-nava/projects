@@ -1,0 +1,32 @@
+/* Modal Background */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Box */
+.modal-content {
+  background: white;
+  padding: 25px;
+  width: 300px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Inputs */
+.modal-content input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+/* Close Button */
+#closeBtn {
+  float: right;
+  font-size: 22px;
+  cursor: pointer;
+}
