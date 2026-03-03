@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(225, 225, 225, 0.666);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.pass-auth {
+    padding: 40px;
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 7px;
+    margin-bottom: 20px;
+
+    background-color: #fff;
+}
+
+.pass-auth h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.pass-auth label {
+    font-weight: bold;
+}
+
+.pass-auth input {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 40px 10px 10px;
+
+    border-radius: 5px;
+
+    border: none;
+    outline: none;
+    box-shadow: 1px 3px 0px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 1px 3px 0px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 3px 0px 0px rgba(0,0,0,0.35);
+}
+
+.pass-toogle {
+    position: relative;
+}
+
+.pass-toogle i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.pass-auth button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+
+    background: #007bff;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.pass-auth button:hover {
+    background: #0056b3;
+}
